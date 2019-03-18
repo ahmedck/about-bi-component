@@ -1,7 +1,10 @@
 axios.get('/user?ID=12345')
-	 .then(response => {
+
+ .then(response => {
+	 
           console.log( response.data);
-      })
-      .catch(error => {
+	  
+ })
+ .catch(error => {
         console.log("Error to load reports list");
-      });
+ });
